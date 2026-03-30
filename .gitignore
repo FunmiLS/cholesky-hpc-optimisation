@@ -37,8 +37,3 @@ __pycache__/
 *.toc
 *.tex
 build.ipynb
-
-
-
-#versions
-v11*
