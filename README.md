@@ -127,7 +127,7 @@ Example SLURM scripts are provided in scripts/:
 - Platform: Cambridge CSD3 Cluster, icelake partition (Intel Xeon Ice Lake)
 - Compiler Flag: -O3
 
-Further details related to HPC use is outlined in the report.pdf
+Further details related to HPC use are outlined in the report.pdf
 
 ## Use of Auto-Generative Tools
 This project utilised auto-generative tools in the development of plotting functions, testing and error handling, writing results to CSVs, commenting style and LaTeX formatting. It was also used to assess the project for software development best practices.
@@ -138,3 +138,4 @@ Example prompts used for this project:
 - Generate a README template for this project.
 - Generate a Makefile.
 - Generate LaTeX formula for this equation. 
+- Format comments in Doxygen-style 
