@@ -1,0 +1,4 @@
+# Cache-blocking benchmarks
+
+add_cholesky_executable(benchmark_v6_blocks v6_cache_blocking.cpp)
+add_cholesky_executable(benchmark_v7_serial_blocks v7_serial_blocking.cpp)

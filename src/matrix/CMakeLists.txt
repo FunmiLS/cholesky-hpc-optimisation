@@ -1,0 +1,19 @@
+# Serial matrix-size benchmarks
+
+add_cholesky_executable(benchmark_v1 v1_baseline.cpp)
+add_cholesky_executable(benchmark_v2 v2_loop_order.cpp)
+add_cholesky_executable(benchmark_v3 v3_scalar_hoisting.cpp)
+add_cholesky_executable(benchmark_v4 v4_pointers.cpp)
+add_cholesky_executable(benchmark_v5 v5_merge_loop.cpp)
+add_cholesky_executable(benchmark_v6 v6_cache_blocking.cpp)
+add_cholesky_executable(benchmark_v7 v7_serial.cpp)
+add_cholesky_executable(benchmark_v8 v8_parallel_naive.cpp)
+add_cholesky_executable(benchmark_v9 v9_parallel_static.cpp)
+add_cholesky_executable(benchmark_v10 v10_parallel_dynamic.cpp)
+add_cholesky_executable(benchmark_v11 v11_parallel.cpp)
+
+# Parallel versions
+enable_openmp_if_available(benchmark_v8)
+enable_openmp_if_available(benchmark_v9)
+enable_openmp_if_available(benchmark_v10)
+enable_openmp_if_available(benchmark_v11)

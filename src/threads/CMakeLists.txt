@@ -1,0 +1,13 @@
+# Thread-scaling benchmark
+
+add_cholesky_executable(benchmark_v8_threads v8_parallel_naive_threads.cpp)
+add_cholesky_executable(benchmark_v9_threads v9_parallel_static_threads.cpp)
+add_cholesky_executable(benchmark_v10_threads v10_parallel_dynamic_threads.cpp)
+add_cholesky_executable(benchmark_v11_threads v11_parallel_threads.cpp)
+
+
+enable_openmp_if_available(benchmark_v8_threads)
+enable_openmp_if_available(benchmark_v9_threads)
+enable_openmp_if_available(benchmark_v10_threads)
+enable_openmp_if_available(benchmark_v11_threads)
+

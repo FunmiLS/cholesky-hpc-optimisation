@@ -1,0 +1,7 @@
+# Requirements for running the plotting notebook and basic analysis, (src/plotting/plots.ipynb)
+
+pandas>=1.5
+matplotlib>=3.6
+notebook>=6.5
+numpy>=1.23
+

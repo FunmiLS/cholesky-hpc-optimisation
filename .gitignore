@@ -1,0 +1,53 @@
+# Build outputs
+/build_*/
+build/
+cmake-build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+Testing/
+_deps/
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.ipynb_checkpoints/
+
+# CSD3 job output files
+*.o.*
+*.e.*
+slurm-*.out
+slurm-*.err
+
+# Python env/cache
+.venv/
+__pycache__/
+
+#report
+*.aux
+*.log
+*.out
+*.toc
+*.tex
+build.ipynb
+
+
+
+#versions
+v2*
+v3*
+v4*
+v5*
+v6*
+v7*
+v8*
+v9*
+v10*
+v11*
